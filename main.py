@@ -29,5 +29,11 @@ def eje3():
 
 if __name__ == '__main__':
     #print("La media es: " + str(eje1()))
-    print("La mediana es: " + str(eje2()))
+    #print("La mediana es: " + str(eje2()))
     #1,2,3,4,5,6,7,8,9,10
+
+    es_par = lambda x: x % 2 == 0
+    print(es_par(7))
+
+    es_impar = lambda x: x % 2 != 0
+    print(es_impar(5))
