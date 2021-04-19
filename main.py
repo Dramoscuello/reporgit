@@ -39,3 +39,5 @@ if __name__ == '__main__':
     #print(es_impar(5))
 
     print([i**2 for i in range(1,11) if i % 2 == 0])
+
+    print({i:i*2 for i in range(1,11)})
