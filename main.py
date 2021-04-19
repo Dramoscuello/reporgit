@@ -24,3 +24,6 @@ if __name__ == '__main__':
 
     es_par = lambda x: x % 2 == 0
     print(es_par(7))
+
+    es_impar = lambda x: x % 2 != 0
+    print(es_impar(5))
