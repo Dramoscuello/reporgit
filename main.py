@@ -1,4 +1,4 @@
-def eje1():
+def funcone():
     tope = int(input("Dijite el limite: "))
     suma = 0
     for i in range(1, tope+1):
